@@ -1,0 +1,10 @@
+# HTTP Server (Tomcat) Port
+server: 
+  port: 8686
+  
+spring:
+  h2:
+    console:
+      enabled: true
+  application:
+    name:ORDER_SERVICE
